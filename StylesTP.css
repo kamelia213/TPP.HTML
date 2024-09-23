@@ -1,0 +1,132 @@
+#logo{
+background-color: rgb(0, 139, 109);
+color: azure;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex ;
+    gap : "180px" ; 
+    padding: right;
+    
+}
+
+body{
+    background-color: aliceblue;
+   
+    margin: 0; /* Évite les marges */
+        
+       
+    padding: 0; /* Évite le padding  */
+}
+
+
+
+#letitre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 59px;
+    font-weight: bold;
+         }
+
+        /*  pour l'image et le texte */
+        .container {
+            display: flex; /* Flexbox pour aligner horizontalement */
+            align-items: center; /* Centre verticalement l'image et le texte */
+            
+        }
+
+       
+
+.bloc1 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255,249,241);
+    margin-bottom: 80px;
+}
+
+.bloc1 img {
+   width: 49%;
+}
+
+.bloc2 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(255,249,241);
+    margin-bottom: 80px;
+}
+
+.bloc2 img {
+    width: 51%;
+}
+
+.text {
+    margin: 70px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.9; /* pour avoir de la distance entre les lignes */
+}
+.bloc3 {
+display: flex;
+align-items: center;
+border-radius: 20px;
+background-color: rgb(255,249,241);
+margin-bottom: 80px;
+}
+.bloc3 img {
+    width: 49%;
+}
+
+.text a {
+    margin: 60px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+   padding: 50px;
+}
+.hover-effect {
+    font-size: 20px;
+    color: white;
+    transition: color 0.8s ease;
+    cursor: pointer;
+}
+.hover-effect:hover{
+    text-decoration: underline; /* Souligne le texte au survol */
+    transform: scale(1.5); /* Agrandir  lors du hover */
+    
+  }
+  .optique{
+    margin-left: 69px; /*mettre le titre a gauche */
+    font-size: 4vw;
+    
+  }
+
+  .Opt {
+    margin-bottom: 2px;
+    padding-bottom: 40px;
+ }
+.Audition 
+{
+    margin-left: 69px; /*mettre le titre a gauche */
+    font-size: 4vw;
+}
+
+
